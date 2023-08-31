@@ -23855,7 +23855,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"./App.css":"7eg3s","react-router-dom":"9xmpe","./Search":"1TO9L","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./CreateContact":"9IM86","./ContactDetails":"8ulRn"}],"7eg3s":[function() {},{}],"9xmpe":[function(require,module,exports) {
+},{"./App.css":"7eg3s","react-router-dom":"9xmpe","./Search":"1TO9L","./CreateContact":"9IM86","./ContactDetails":"8ulRn","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7eg3s":[function() {},{}],"9xmpe":[function(require,module,exports) {
 /**
  * React Router DOM v6.15.0
  *
