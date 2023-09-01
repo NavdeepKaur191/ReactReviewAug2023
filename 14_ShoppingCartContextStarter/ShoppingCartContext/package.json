@@ -1,0 +1,45 @@
+{
+  "name": "ExerciseRoutingPages",
+  "version": "1.0.0",
+  "description": "Exercise to test students skills with React Router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "backend": "node ./server/api.mjs",
+    "frontend": "parcel serve ./src/index.html",
+    "dev": "npm-run-all --parallel backend frontend",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "mthree",
+  "license": "ISC",
+  "dependencies": {
+    "@headlessui/react": "^1.4.2",
+    "@heroicons/react": "^1.0.5",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "npm-run-all": "^4.1.5",
+    "parcel": "^2.0.1",
+    "postcss": "^8.4.14",
+    "prettier": "^2.3.2",
+    "process": "^0.11.10",
+    "tailwindcss": "^2.2.19"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
