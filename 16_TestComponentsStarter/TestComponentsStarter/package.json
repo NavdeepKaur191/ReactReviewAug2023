@@ -1,0 +1,59 @@
+{
+  "name": "tutorialcontactlist",
+  "version": "1.0.0",
+  "description": "This is a contact list tutorial for mthree's Introduction to React Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel serve ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
+  "author": "mthree",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^5.3.0",
+    "node-fetch": "^2.6.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "@parcel/transformer-image": "^2.9.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jest": "^27.2.3",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.6.4",
+    "jest-environment-jsdom": "^29.6.1",
+    "msw": "^1.2.5",
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.25",
+    "prettier": "^3.0.0",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3",
+    "whatwg-fetch": "^3.6.18"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "jest": {
+    "verbose": true,
+    "setupFilesAfterEnv": [
+      "./jest.setup.js"
+    ],
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "<rootDir>/src/utils/mocks/fileExtensionMocks.js"
+    }
+  }
+}
